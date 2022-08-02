@@ -1,0 +1,169 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form {
+    margin-top: 200px;
+    width: 1090px;
+    height: 100%;
+    padding: 40px 50px;
+    border-radius: 5px;
+    box-shadow: 23px 12px 2px rgba(841, 564, 346, 0.0891);
+    background-color: #9cecc0;
+    border: 2px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.main {
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 3px;
+    margin: 2px;
+    color: black;
+}
+
+.label {
+    padding: 5px 3px;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(112, 120, 231);
+}
+
+.submit {
+    padding: 10px;
+    margin: 12px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.submit1 {
+    padding: 10px;
+    margin: 12px;
+    background-color: rgb(231, 84, 84);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.submit2 {
+    padding: 10px;
+    margin: 12px;
+    background-color: rgb(137, 113, 240);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.td {
+    padding: 4px;
+    margin: 3px;
+    color: brown;
+    font-weight: bold;
+    justify-content: space-between;
+}
+
+.list {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.search {
+    float: right;
+    margin: 0px 0px;
+    padding: 5px;
+}
+
+.list:li {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: black;
+}
+
+li a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a:hover {
+    background-color: red;
+}
+
+.container {
+    width: 200px;
+    height: 30px;
+    padding: 20px;
+    margin: 3px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+.item {
+    width: 500px;
+    height: 200px;
+    padding: 30px 20px;
+    margin: auto;
+    border: 2px solid red;
+    background-color: rgb(236, 135, 220);
+}
